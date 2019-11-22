@@ -378,3 +378,7 @@ ul {
 hr {
   height: 3px;
 }
+
+.projectLink:hover {
+  text-decoration: none;
+}

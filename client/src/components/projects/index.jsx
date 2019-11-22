@@ -13,7 +13,7 @@ function Projects() {
           <Link to="/">Go Back</Link>
         </div>
       </div>
-      <a>
+      <a class="projectLink">
         <div class="carousel-content2 techContainer">
           <div class="jumbotron techJobJumbo">
             <h1 class="display-4 techJobSearch">Tech Job Finder</h1>
@@ -35,7 +35,7 @@ function Projects() {
           </div>
         </div>
       </a>
-      <a href="https://readymetgo.herokuapp.com/">
+      <a class="projectLink" href="https://readymetgo.herokuapp.com/">
         <div class="carousel-content3 rmgContainer">
           <div class="jumbotron readyMetGoJumbo">
             <h1 class="display-4 readyMetGo">Ready? Met. Go!</h1>
@@ -56,7 +56,7 @@ function Projects() {
           </div>
         </div>
       </a>
-      <a href="https://recrenter.herokuapp.com">
+      <a class="projectLink" href="https://recrenter.herokuapp.com">
         <div class="carousel-content6 recContainer">
           <div class="jumbotron recJumbo">
             <h1 class="display-4 recRenter">Rec Renter</h1>
@@ -80,7 +80,10 @@ function Projects() {
           </div>
         </div>
       </a>
-      <a href="https://bryce-senninger.github.io/AmericanLiteratureTrivia/">
+      <a
+        class="projectLink"
+        href="https://bryce-senninger.github.io/AmericanLiteratureTrivia/"
+      >
         <div class="carousel-content5">
           <div class="jumbotron triviaJumbo">
             <h1 class="display-4 triviaGame">American Literature Trivia</h1>
@@ -100,7 +103,7 @@ function Projects() {
           </div>
         </div>
       </a>
-      <a href="https://trackrecipes.herokuapp.com/">
+      <a class="projectLink" href="https://trackrecipes.herokuapp.com/">
         <div class="carousel-content4 recipeContainer">
           <div class="jumbotron recipeJumbo">
             <h1 class="display-4 recipeTracker">Recipe Tracker</h1>
