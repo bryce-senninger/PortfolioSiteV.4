@@ -112,22 +112,51 @@ a {
 
 .recipeJumbo {
   background-image: linear-gradient(
-    to right,
-    rgba(54, 153, 78, 0.95),
-    rgba(196, 182, 155, 0.95)
+    to left,
+    rgb(53, 53, 47, 0.95),
+    rgb(228, 156, 89, 0.95)
   );
 }
 
 .techJobJumbo {
   background-image: linear-gradient(
+    to left,
+    rgba(122, 179, 206, 0.95),
+    rgba(93, 37, 110, 0.95)
+  );
+}
+
+.triviaJumbo {
+  background: linear-gradient(
     to right,
-    rgba(153, 156, 131, 0.95),
-    rgba(51, 101, 177, 0.95)
+    rgb(182, 48, 48, 0.95) 26%,
+    rgba(196, 182, 155, 0.95)
+  );
+}
+
+.recJumbo {
+  background: rgb(27, 150, 136);
+  background: linear-gradient(
+    to left,
+    rgb(155, 127, 118, 0.95),
+    rgb(44, 119, 68, 0.95)
   );
 }
 
 .techJobSearch {
   font-family: "Modak", cursive;
+}
+
+.recRenter {
+  font-family: Alfa Slab One, cursive;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.triviaGame {
+  text-align: center;
+  font-family: "Beth Ellen", cursive;
+  font-size: 34px;
 }
 
 .readyMetGo {
@@ -149,7 +178,9 @@ ul {
 
 .carousel-content2,
 .carousel-content3,
-.carousel-content4 {
+.carousel-content4,
+.carousel-content5,
+.carousel-content6 {
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -232,7 +263,7 @@ ul {
   .carousel-content4 {
     position: absolute;
     width: 512px;
-    left: 95%;
+    left: 94%;
     margin-left: -512px;
     text-align: center;
     top: 54%;
@@ -241,20 +272,62 @@ ul {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   }
 
+  .carousel-content5 {
+    position: absolute;
+    width: 512px;
+    left: 5%;
+    text-align: center;
+    top: 115%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .carousel-content6 {
+    position: absolute;
+    width: 512px;
+    left: 94%;
+    margin-left: -512px;
+    text-align: center;
+    top: 115%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  }
+
+  .recContainer,
+  .techContainer {
+    top: 49%;
+  }
+
+  .recipeContainer {
+    top: 115%;
+  }
+
+  .rmgContainer {
+    top: 84%;
+  }
+
   .carousel-content2,
   .carousel-content3,
-  .carousel-content4 {
-    transition: all 0.2s ease-in-out;
+  .carousel-content4,
+  .carousel-content5,
+  .carousel-content6 {
+    transition: all 0.3s ease-in-out;
   }
 
   .carousel-content2:hover,
-  .carousel-content4:hover {
+  .carousel-content4:hover,
+  .carousel-content5:hover,
+  .carousel-content6:hover {
     z-index: 30;
   }
 
   .carousel-content2:hover,
   .carousel-content3:hover,
-  .carousel-content4:hover {
+  .carousel-content4:hover,
+  .carousel-content5:hover,
+  .carousel-content6:hover {
     transform: scale(1.1);
   }
 
@@ -285,10 +358,23 @@ ul {
 
 .projectJumbo,
 .contactJumbo,
-.bioJumbo {
+.bioJumbo,
+.triviaJumbo {
   cursor: pointer;
 }
 
 .headerjumbo {
   cursor: context-menu;
+  height: 345px;
+}
+
+.carousel-content2,
+.carousel-content3,
+.carousel-content4,
+.carousel-content6 {
+  cursor: pointer;
+}
+
+hr {
+  height: 3px;
 }
