@@ -10,6 +10,13 @@
   margin-bottom: 10px;
 }
 
+.logo {
+  width: 98%;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .carousel {
   z-index: -99;
 }
@@ -127,6 +134,7 @@ a {
 }
 
 .triviaJumbo {
+  background: rgb(27, 150, 136);
   background: linear-gradient(
     to right,
     rgb(182, 48, 48, 0.95) 26%,
@@ -140,6 +148,30 @@ a {
     to left,
     rgb(155, 127, 118, 0.95),
     rgb(44, 119, 68, 0.95)
+  );
+}
+
+.pastJumbo {
+  background-image: linear-gradient(
+    to left,
+    rgba(122, 179, 206, 0.95),
+    rgba(93, 37, 110, 0.95)
+  );
+}
+
+.presentJumbo {
+  background: linear-gradient(
+    to bottom,
+    rgba(184, 89, 89, 0.95),
+    rgba(184, 177, 83, 0.95)
+  );
+}
+
+.futureJumbo {
+  background: linear-gradient(
+    to left,
+    rgba(153, 141, 86, 0.95),
+    rgba(28, 155, 71, 0.95)
   );
 }
 
@@ -188,7 +220,11 @@ ul {
 @media only screen and (min-width: 767px) {
   .selfie {
     width: 60%;
-    float: left;
+    margin-right: 10px;
+  }
+
+  .logo {
+    width: 60%;
     margin-right: 10px;
   }
 
@@ -203,7 +239,14 @@ ul {
     width: 40%;
     border: 2px solid #ffffff;
     border-radius: 6px;
-    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .logo {
+    width: 40%;
+    border-radius: 6px;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 15px;
@@ -328,7 +371,7 @@ ul {
   .carousel-content4:hover,
   .carousel-content5:hover,
   .carousel-content6:hover {
-    transform: scale(1.1);
+    transform: scale(1.09);
   }
 
   .bioPageJumbo {
