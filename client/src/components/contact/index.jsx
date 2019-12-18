@@ -16,9 +16,11 @@ function Contact() {
         </div>
       </div>
       <div className="carousel-content2">
-        <div className="jumbotron bioJumbo pastJumbo">
-          <img class="logo" src={LinkedIn} alt="Bryce" />
-        </div>
+        <a href="https://www.linkedin.com/in/bryce-senninger/">
+          <div className="jumbotron bioJumbo pastJumbo">
+            <img class="logo" src={LinkedIn} alt="Bryce" />
+          </div>
+        </a>
       </div>
       <div className="carousel-content3">
         <div className="jumbotron projectJumbo presentJumbo">
@@ -39,9 +41,11 @@ function Contact() {
         </div>
       </div>
       <div className="carousel-content4">
-        <div className="jumbotron contactJumbo futureJumbo">
-          <img class="logo" src={GitHub} alt="Bryce" />
-        </div>
+        <a href="https://github.com/bryce-senninger">
+          <div className="jumbotron contactJumbo futureJumbo">
+            <img class="logo" src={GitHub} alt="Bryce" />
+          </div>
+        </a>
       </div>
     </>
   );
