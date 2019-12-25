@@ -22,7 +22,7 @@ function Contact() {
           </div>
         </a>
       </div>
-      <div className="carousel-content3">
+      <div className="carousel-content3 emailJumbo">
         <div className="jumbotron projectJumbo presentJumbo">
           {/* <h1 className="display-4">Present</h1>
           <hr className="my-4" /> */}

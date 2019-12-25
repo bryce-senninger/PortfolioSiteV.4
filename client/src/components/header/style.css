@@ -320,7 +320,7 @@ ul {
     width: 512px;
     left: 5%;
     text-align: center;
-    top: 115%;
+    top: 119%;
     z-index: 20;
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
@@ -344,11 +344,11 @@ ul {
   }
 
   .recipeContainer {
-    top: 115%;
+    top: 119%;
   }
 
   .rmgContainer {
-    top: 84%;
+    top: 89%;
   }
 
   .carousel-content2,
@@ -424,4 +424,8 @@ hr {
 
 .projectLink:hover {
   text-decoration: none;
+}
+
+.emailJumbo {
+  top: 87%;
 }
