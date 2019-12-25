@@ -31,7 +31,11 @@ function Contact() {
             <input type="text" name="name" />
 
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" />
+            <input
+              type="email"
+              placeholder="YourEmail@sample.com"
+              name="email"
+            />
 
             <label htmlFor="message">Message</label>
             <textarea name="message" rows="3"></textarea>
