@@ -20,9 +20,9 @@ function Bio() {
           <hr className="my-4" />
           <p>
             I began my post-secondary education at the University of Utah
-            studying Economics and Statistical Analysis. Eventually I came to
-            the conclusion that Economics might not be the best way to explore
-            my passion for problem solving and creative reasoning.
+            studying Economics and Statistical Analysis. Although I maintain a
+            love of statistics, I eventually started to realize that this field
+            wasn't truly my calling.
           </p>
           <p>
             I started coding and knew right away I had found a passion, and I
