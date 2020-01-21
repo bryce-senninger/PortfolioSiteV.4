@@ -13,7 +13,7 @@ function Projects() {
           <Link to="/">Go Back</Link>
         </div>
       </div>
-      <a class="projectLink">
+      <a class="projectLink" href="">
         <div class="carousel-content2 techContainer">
           <div class="jumbotron techJobJumbo">
             <h1 class="display-4 techJobSearch">Tech Job Finder</h1>
